@@ -7,6 +7,8 @@ class Application
 
     if req.path.match(/items/)
 
+    else
+
     end
   end
 end
