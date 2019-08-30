@@ -12,6 +12,9 @@ class Application
       if @@items.any? {|item| item.name == item_name}
         item = @@items.find{|item| item.name == item_name}
         resp.write "#{item.price}"
+      else
+
+      end
     else
       resp.write "Route not found"
       resp.status = 404
