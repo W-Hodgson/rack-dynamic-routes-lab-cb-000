@@ -1,5 +1,4 @@
 require_relative "./item.rb"
-require "pry"
 class Application
 
   @@items = []
